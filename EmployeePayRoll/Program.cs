@@ -7,6 +7,8 @@ namespace EmployeePayRoll
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Employee Payroll ADO");
+            EmployeeOperation employeeOperation = new EmployeeOperation();
+            employeeOperation.GetAllEmployeeDetail();
         }
     }
 }
