@@ -27,6 +27,7 @@ namespace EmployeePayRoll
         {
             Console.WriteLine("Welcome to Employee Payroll ADO");
             DisplayEmployeeDetails();
+            employeeOperation.UpdateEmployeeSalary();
         }
     }
 }
