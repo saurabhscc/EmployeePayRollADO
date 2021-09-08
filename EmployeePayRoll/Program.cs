@@ -26,6 +26,7 @@ namespace EmployeePayRoll
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Employee Payroll ADO");
+            Console.WriteLine("                                ");
             DisplayEmployeeDetails();
             employeeOperation.UpdateEmployeeSalary();
             Console.WriteLine("Employee Details between Start date and End date");
