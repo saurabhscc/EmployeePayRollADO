@@ -27,6 +27,9 @@ namespace EmployeePayRoll
         {
             Console.WriteLine("Welcome to Employee Payroll ADO");
             DisplayEmployeeDetails();
+            employeeOperation.UpdateEmployeeSalary();
+            Console.WriteLine("Employee Details between Start date and End date");
+            employeeOperation.GetEmployeeDetailsByDate();
         }
     }
 }
